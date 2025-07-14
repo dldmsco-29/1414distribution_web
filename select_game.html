@@ -84,13 +84,13 @@
       cursor: pointer;
       position: relative;
       overflow: hidden;
-      background-size: 300% 300%;
+      background-size: 600% 600%;
       animation: gradientShift 8s ease infinite;
       transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
 
     #myBtn {
-      background: linear-gradient(135deg, #ff8e53, #fe6b8b, #33c1ff, #6a63d9);
+      background: linear-gradient(270deg, #ff8e53, #fe6b8b, #33c1ff, #6a63d9);
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.3), 0 0 25px rgba(254, 107, 139, 0.9);
     }
 
@@ -100,8 +100,10 @@
     }
 
     #myBt {
-      background: linear-gradient(135deg, #aee138, #4cd7da, #3adf59, #c545ab);
+      background: linear-gradient(270deg, #aee138, #4cd7da, #3adf59, #c545ab);
+      background-size: 600% 600%;
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.3), 0 0 25px rgba(107, 227, 254, 0.9);
+      animation: gradientShift 8s ease infinite;
     }
 
     #myBt:hover {
@@ -117,7 +119,7 @@
   </style>
 </head>
 <body>
-    <div class="box-container">
+  <div class="box-container">
     <div class="box box-top">
       제한시간 내에 유미를 25번 잡는 게임입니다!<br>
       티모가 나온다면 클릭하지 마세요!!<br>
@@ -144,4 +146,3 @@
   </script>
 </body>
 </html>
-
